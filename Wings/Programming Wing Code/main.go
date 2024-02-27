@@ -36,6 +36,9 @@ var boundingsForKeys = map[int]keybd_event.KeyBonding{}
 
 func setKeyForkB(kb *keybd_event.KeyBonding, button int) int {
 	switch button {
+	case 49:
+		kb.HasALTGR(true)
+		kb.SetKeys(keybd_event.VK_SP12)
 	case 4:
 		kb.SetKeys(keybd_event.VK_SP3)
 		kb.HasSHIFT(true)
