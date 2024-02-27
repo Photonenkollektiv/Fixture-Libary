@@ -27,8 +27,6 @@ var buttonsToKeys = map[int]int{
 	69: 38,
 	67: 44,
 	63: 45,
-	40: 46,
-	49: 47,
 	22: 48,
 }
 
