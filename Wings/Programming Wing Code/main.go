@@ -39,16 +39,16 @@ func setKeyForkB(kb *keybd_event.KeyBonding, button int) int {
 	switch button {
 	case 4:
 		kb.SetKeys(keybd_event.VK_4)
-		kb.HasCTRL(true)
+		kb.HasSHIFT(true)
 	case 3:
 		kb.SetKeys(keybd_event.VK_5)
-		kb.HasCTRL(true)
+		kb.HasSHIFT(true)
 	case 14:
 		kb.SetKeys(keybd_event.VK_6)
-		kb.HasCTRL(true)
+		kb.HasSHIFT(true)
 	case 46:
 		kb.SetKeys(keybd_event.VK_7)
-		kb.HasCTRL(true)
+		kb.HasSHIFT(true)
 	case 69:
 		kb.SetKeys(keybd_event.VK_SP12)
 		kb.HasSHIFT(true)
