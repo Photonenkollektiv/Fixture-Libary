@@ -38,16 +38,16 @@ var boundingsForKeys = map[int]keybd_event.KeyBonding{}
 func setKeyForkB(kb *keybd_event.KeyBonding, button int) int {
 	switch button {
 	case 4:
-		kb.SetKeys(keybd_event.VK_4)
+		kb.SetKeys(keybd_event.VK_SP3)
 		kb.HasSHIFT(true)
 	case 3:
-		kb.SetKeys(keybd_event.VK_5)
+		kb.SetKeys(keybd_event.VK_SP8)
 		kb.HasSHIFT(true)
 	case 14:
-		kb.SetKeys(keybd_event.VK_6)
+		kb.SetKeys(keybd_event.VK_SP9)
 		kb.HasSHIFT(true)
 	case 46:
-		kb.SetKeys(keybd_event.VK_7)
+		kb.SetKeys(keybd_event.VK_SP10)
 		kb.HasSHIFT(true)
 	case 69:
 		kb.SetKeys(keybd_event.VK_SP12)
