@@ -99,7 +99,6 @@ func setKeyForkB(kb *keybd_event.KeyBonding, button int) int {
 		if !ok {
 			return 0
 		}
-		kb.HasALT(true)
 		kb.HasCTRL(true)
 		kb.HasSHIFT(true)
 		kb.SetKeys(key)
