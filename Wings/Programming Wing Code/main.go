@@ -14,7 +14,6 @@ var buttonsToKeys = map[int]int{
 	52: 49,
 	7:  17,
 	9:  18,
-	5:  50,
 	50: 20,
 	6:  21,
 	8:  22,
@@ -40,6 +39,9 @@ func setKeyForkB(kb *keybd_event.KeyBonding, button int) int {
 	case 4:
 		kb.SetKeys(keybd_event.VK_SP3)
 		kb.HasSHIFT(true)
+	case 5:
+		kb.SetKeys(keybd_event.VK_SP4)
+		kb.HasCTRL(true)
 	case 3:
 		kb.SetKeys(keybd_event.VK_SP8)
 		kb.HasSHIFT(true)
